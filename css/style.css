@@ -1,0 +1,297 @@
+.section1{
+    background-image: url(../kerri/header-bg.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.69);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.btn-outline-custom {
+    border: 2px solid #f5f5f5;
+}
+
+.btn-round {
+    border-radius: 30px;
+}
+
+.btn {
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    color: #fff;
+    box-shadow: none !important;
+    text-transform: uppercase;
+    outline: none !important;
+}
+
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.scroll-down {
+    width: 30px;
+    height: 50px;
+    border-radius: 10%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 85%;
+    cursor: pointer;
+    animation: moved 2s infinite ease-in;
+}
+
+@keyframes moved{
+    0%{
+        top: 500px;
+   }
+   25%{
+         top: 550px;
+   }
+   50%{
+    top: 549px;
+   }
+   75%{
+       top: 530px;
+   }
+   100%{
+       top: 500px;
+   }
+ 
+    
+}
+
+
+.scroll-down:after{
+    content: "";
+    width: 5px;
+    height: 15px;
+    position: absolute;
+    top: 20px;
+    background-color: #fff;
+}
+
+
+
+
+.nav-link{
+    color: white;
+    font-weight: 600;
+}
+.nav-item{
+    color: #fff;
+}
+
+.home2{
+    color: #e65f78;
+}
+
+.nav-link:hover{
+    color: #e65f78;
+}
+
+.setting{
+    background-color: #2b2424;
+    width: 55px;
+    height: 45px;
+    position: absolute;
+    top: 30%;
+    left: 0;
+  
+}
+.setting i{
+    position: absolute;
+    top: 14%;
+    left: 10px;
+    color: #fff;
+}
+
+
+.about-social li a {
+    color: #000;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 2px solid #d4d4d4;
+    line-height: 38px;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.about-social li a:hover{
+    color: #e65f78;
+}
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: #fff;
+}
+
+.btn-custom, .back_top, .services-boxes .services-title-border, .owl-theme .owl-controls .owl-page span, .work_menu a.active, .work_menu a:hover {
+    background-color: #e65f78;
+}
+
+.services-boxes {
+    border: 1px solid #e8e8e8;
+}
+.text-center {
+    text-align: center!important;
+}
+.p-4 {
+    padding: 1.5rem!important;
+}
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
+
+
+.carousel-indicators li {
+background-color: #e65f78 ;
+}
+
+.work-item{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, .5);
+    
+}
+
+.work-item:hover img{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.layer-caption i{
+    padding: 5px;
+    color: white;
+    font-size: 30px;
+    transition: 0.5s all;
+}
+
+.layer-caption i:hover{
+    color: #007bff;
+    transform: scale(1.2);
+}
+
+.layer-caption i:hover .face-bok {
+    color: green;
+}
+
+.work-item img{
+    transition: 0.5s  all;
+}
+
+.work-item .layer-caption{
+    position: relative;
+    top: 60%;
+    transition: 0.5s all;
+}
+
+.work-item:hover .layer-caption{
+    top: 0;
+    
+}
+
+.work-item:hover .layer{
+    opacity: 1;
+}
+
+.title{
+    font-family: cursive;
+    font-weight: 600;
+
+}
+
+.title span{
+    color: #e65f78;
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: #fff;
+}
+
+
+.title-section2{
+    color: #e65f78;
+}
+
+.title-section2 span{
+    color: black;
+    font-weight: 600;
+}
+
+.text-right {
+    text-align: right!important;
+}
+
+.btn-custom {
+    border: 1px solid;
+}
+
+.btn{
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    color: #fff;
+
+}
+
+
+.footer {
+    padding: 70px 0px;
+    background-color: #242424 !important;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.text-white {
+    color: #fff!important;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.footer .footer-alt p {
+    font-size: 16px;
+}
+
+.footer .footer-alt ul li a {
+    border-radius: 50%;
+    transition: all 0.5s;
+    background-color: rgba(241, 241, 241, 0.08);
+    width: 42px;
+    height: 42px;
+    display: block;
+    font-size: 18px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+}
+
